@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://b03ycyptlfne7"]
+
+[ext_resource type="Texture2D" uid="uid://d2s6q3ham56aq" path="res://assets/scene/colored_castle.png" id="1_wtl4m"]
+
+[node name="Level" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(0, -300)
+scale = Vector2(1.12598, 1.12598)
+texture = ExtResource("1_wtl4m")
+centered = false
